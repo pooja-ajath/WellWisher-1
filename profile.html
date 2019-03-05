@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>HEALTHCARE Agency</title>
+<title>Well wisher</title>
 <link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
 <link href="css/master.css" rel="stylesheet">
 <link rel="stylesheet" href="plugins/iview/css/iview.css" type='text/css' media='all' />
@@ -19,62 +19,33 @@
 <div class="layout-theme animated-css"  data-header="sticky" data-header-top="200"  >
 
 
- <!-- <div class="top-header">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-5 text-left">
-          <ul class="social-links social-links_right">
-            <li><a target="_blank" href="https://www.facebook.com/"><i class="social_icons social_facebook_square"></i></a></li>
-            <li class=""><a target="_blank" href="https://twitter.com/"><i class="social_icons social_twitter_square"></i></a></li>
-            <li><a target="_blank" href="https://www.google.com/"><i class="social_icons social_googleplus_square"></i></a></li>
-            <li><a target="_blank" href="https://www.linkedin.com/"><i class="social_icons social_linkedin_square"></i></a></li>
-            <li><a target="_blank" href="https://www.youtube.com/"><i class="social_icons social_youtube_square"></i></a></li>
-            <li class="li-last"><a target="_blank" href="https://instagram.com/"><i class="social_icons social_instagram_square"></i></a></li>
-          </ul>
-        </div>
-        <div class="top-header__links col-sm-7">
-          <div class="btn-group languages">
-            <button type="button" class="btn_languages dropdown-toggle" data-toggle="dropdown"><i class="icon_globe-2"></i>English UK<span class="caret color_primary"></span></button>
-            <ul class="dropdown-menu" role="menu">
-              <li><a href="javascript:void(0);">English UK1</a></li>
-              <li><a href="javascript:void(0);">English UK2</a></li>
-            </ul>
-          </div>
-          <a href="javascript:void(0);">Hospital Timings</a>
-          <a href="javascript:void(0);">Book an Appointment</a>
-        </div>
-      </div>
-    </div>
-  </div>-->
-
   <!-- HEADER -->
-  <div class="header">
+   <div class="header">
     <div class="container">
-      <div class="header-inner">
+      <div class="header-inner wow zoomIn" data-wow-delay="0.5s">
         <div class="row">
           <div class="col-md-4 col-xs-12">
-           <a href="index.html" class="logo" style="position:absolute;z-index: 1000;margin: -60px 0px;background-color:#363636;">
+            <a href="index.html" class="logo" style="background-color:#000;">
               <img class="logo__img" src="img/logo2.png" height="50" width="150" alt="Logo">
             </a>
           </div>
-          <div class="col-md-8 col-xs-12">
+          <div class="col-md-8 col-xs-12" style="padding-top: 30px;">
+            <div class="col-md-4">
             <div class="header-block">
-              <span class="header-label">
-                <i class="icon-header icon-call-in color_primary"></i>
-                <span class="helper"> Call Us <a href="tel:+522 234 56789"><strong>+522 234 56789</strong></a></span>
-              </span>
-
-              <span class="header-label">
-                <i class="icon-header icon-envelope-open color_primary"></i>
-                <span class="helper"> Email us <a href="mailto:help@domain.com"><strong>help@domain.com</strong></a></span>
-              </span>
-
-              <!--<a class="top-cart" href="/"> <i class="icon icon-basket bg-color_primary"></i> Cart Items: 2 <span class="top-cart__price color_second">$250.00</span></a>-->
+               <span class="header-label"> <i class="icon-header icon-call-in color_primary"></i> <span class="helper"> Call Us <a href="tel:+522 234 56789"><strong>+522 234 56789</strong></a></span></span>
             </div>
-            <form class="hidden-md hidden-lg text-center" id="search-global-mobile" method="get">
-              <input type="text" value="" id="search-mobile" name="s" >
-              <button type="submit"><i class="icon fa fa-search"></i></button>
-            </form>
+           </div> 
+           <div class="col-md-4">
+           <div class="header-block">
+              <span class="header-label"> <i class="icon-header icon-envelope-open color_primary"></i> <span class="helper"> Email us <a href="mailto:help@domain.com"><strong>help@domain.com</strong></a></span> </span>
+              </div>
+              </div>
+              <div class="col-md-4">
+              <div class="header-block">
+              <span class="header-label"><span class="helper"><a href="#"><strong>Book an Appointment </strong></a></span></span>
+               </div>
+               </div>
+           
           </div>
         </div>
       </div><!-- end header-inner-->
@@ -93,35 +64,26 @@
                   <li class="dropdown"><a href="index.html">HOME </a>
                     
                   </li>
-                  <li class="dropdown"><a href="#">ABOUT</a>
+                  <li class="dropdown"><a href="about.html">ABOUT</a>
                     
                   </li>
-                  <li class="dropdown"><a href="#"  > SERVICES <b class="caret color_primary"></b> </a>
-                  <ul role="menu" class="dropdown-menu">
-                      <li> <a href="#"> service 1</a> </li>
-                      <li> <a href="#"> services 2</a> </li>
-                      <li> <a href="#"> services 3</a> </li>
-                    </ul>
-				  </li>
+                 
                  <li class="dropdown"><a href="#">DEPARTMENTS</a>
                     
                   </li>
-                  <li><a href="#">APPOINTMENT FORM </a> </li>
-                   <li><a href="#" >CONTACT </a> </li>
+                  <li><a href="appointment-form.html">APPOINTMENT FORM </a> </li>
+                   <li><a href="contact.html" >CONTACT </a> </li>
                    <li><a href="login.html" >Login </a> </li>
                    <li><a href="register.html" >Register </a> </li>
                 </ul>
-                <form id="search-global-menu" class="hidden-xs hidden-sm" method="get">
-                  <input type="text" value="" id="search" name="s" >
-                  <button type="submit"><i class="icon-magnifier"></i></button>
-                </form>
+               
               </div>
             </div>
           </div>
         </div>
       </div>
     </div><!--end top-nav -->
-  </div><!-- HEADER END -->
+  </div><!-- HEADER END --><!-- HEADER END -->
 
 
   <div class="ui-title-page bg_title bg_transparent">

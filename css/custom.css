@@ -1,3 +1,104 @@
 /*//////////////////////////////////////////////////////////////////////////////////////////*/
 /* CUSTOM CSS (ADD YOUR CSS HERE!) */
 /*//////////////////////////////////////////////////////////////////////////////////////////*/
+.helper-margin
+{
+	margin: auto 10px;
+}
+.doctor-img
+{
+	margin:10px;
+}
+.doctor-content-box
+{
+	width: 40%;
+	float:left;
+	text-align: left;
+	color: #ff8b00;
+}
+.doctor-social-icon {
+    padding: 8px 0px;
+    margin-top: 0px;
+}
+.social_icons_doctors
+{
+	padding: 20px 0px;
+}
+.pull-margin {
+    margin: -3px -12px;
+}
+.green
+{
+	color: #0fab0f;
+    font-weight: bold;
+}
+.search-text
+{
+	    padding: 0px 0px 20px 0px;
+}
+.search-text ul li
+input {
+	width: 100%;
+	padding: 5px;
+}
+.search-text ul li:first-child
+{
+	width: 30%;
+}
+.search-text ul li
+{
+	list-style: none;
+	float: left;
+	width: 70%;
+}
+.search-text ul li select
+{
+	width: 100%;
+	padding: 7px;
+	color: #656;
+}
+.btn-default {
+    color: #242;
+    border-radius: 0;
+    float: right;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+.doctor-img {
+    margin: 0px;
+}
+.doctor-content-box {
+    width: 100%;
+    float: left;
+    text-align: left;
+    color: #ff8b00;
+}
+.doctor-feed-back
+{
+	    width: 80%;
+    margin: auto 31px;
+}
+.doctor-feed-back .pull-right
+{
+	text-align: center;
+}
+.social-media-icon
+{
+	width: 17%;
+}
+.social-media-icon-2
+{
+	width: 57%;
+    float: left;
+    margin: -14px 33px;
+}
+.bottone .pull-right
+{
+	float: none !important;
+}
+}

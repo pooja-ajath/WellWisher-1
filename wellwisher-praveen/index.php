@@ -15,98 +15,12 @@
 <script src="js/jquery-ui.min.js"></script>
 <script src="js/bootstrap-3.1.1.min.js"></script>
 <script src="js/modernizr.custom.js"></script>
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
 </head>
 
 <body>
-<div class="layout-theme animated-css"  data-header="sticky" data-header-top="200"  >
 
-  <!-- Loader Landing Page -->
-  <div id="ip-container" class="ip-container">
-    <!-- initial header -->
-    <header class="ip-header" >
-      <div class="ip-loader">
-        <div class="text-center">
-          <div class="ip-logo"><img  src="img/logo.png" height="50" width="200" alt="logo"></div>
-        </div>
-        <svg class="ip-inner" width="60px" height="60px" viewBox="0 0 80 80">
-        <path class="ip-loader-circlebg" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,39.3,10z"/>
-        <path id="ip-loader-circle" class="ip-loader-circle" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
-        </svg> </div>
-    </header>
-  </div>
-  <!-- Loader end -->
-
-
-
-  <!-- HEADER -->
-  <div class="header">
-    <div class="container">
-      <div class="header-inner wow zoomIn" data-wow-delay="0.5s">
-        <div class="row">
-          <div class="col-md-4 col-xs-12">
-            <a href="index.html" class="logo" style="background-color:#000;">
-              <img class="logo__img" src="img/logo3.png"  alt="Logo">
-            </a>
-          </div>
-          <div class="col-md-8 col-xs-12" style="padding-top: 30px;">
-            <div class="col-md-4">
-            <div class="header-block">
-               <span class="header-label"> <i class="icon-header icon-call-in color_primary"></i> <span class="helper"><b style="font-weight: bolder;"> Call Us</b> <a href="tel:+522 234 56789"><strong>+522 234 56789</strong></a></span></span>
-            </div>
-           </div> 
-           <div class="col-md-4">
-           <div class="header-block">
-              <span class="header-label"> <i class="icon-header icon-envelope-open color_primary"></i> <span class="helper"> Email us <a href="mailto:help@domain.com"><strong>help@domain.com</strong></a></span> </span>
-              </div>
-              </div>
-              <div class="col-md-4">
-              <div class="header-block">
-              <span class="header-label"><span class="helper"><a href="#"><strong>Book an Appointment </strong></a></span></span>
-               </div>
-               </div>
-           
-          </div>
-        </div>
-      </div><!-- end header-inner-->
-    </div><!-- end container-->
-
-    <div class="top-nav ">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12  col-xs-12">
-            <div class="navbar yamm " >
-              <div class="navbar-header hidden-md  hidden-lg  hidden-sm ">
-                <button type="button" data-toggle="collapse" data-target="#navbar-collapse-1" class="navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-                <a href="#" class="navbar-brand">Menu</a> </div>
-              <div id="navbar-collapse-1" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                  <li class="ymm-logo"></li>
-                  <li class="dropdown"><a href="index.html">HOME </a>
-                    
-                  </li>
-                  <li class="dropdown"><a href="about.html">ABOUT</a>
-                    
-                  </li>
-                 
-                 <li class="dropdown"><a href="#">DEPARTMENTS</a>
-                    
-                  </li>
-                  <li><a href="appointment-form.html">APPOINTMENT FORM </a> </li>
-                   <li><a href="contact.html" >CONTACT </a> </li>
-                   <li><a href="login.html" >Login </a> </li>
-                   <li><a href="register.html" >Register </a> </li>
-                </ul>
-               
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div><!--end top-nav -->
-  </div><!-- HEADER END -->
-
+<div><?php include("includes/header.php"); ?></div>
 
 
   <div id="iview" class="main-slider">
@@ -147,27 +61,27 @@
         <div class="col-xs-12">
           <h1 class="ui-title-block">Welcome to <strong class="font-weight_600">WELL</strong><span class="font-weight-norm color_primary">WISHER</span></h1>
           <div class="ui-subtitle-block">Our medical specialists care about you & your family’s health</div>
-          <p style="color: #474343;">‘Wellwishers’ understands that you try your best to make your aging parents mentally and emotionally happy. Hence, we are here to provide a one-stop solution to all these problems through a unique app based platform, wherein you can ensure proper attention and the best of the medical care for your loved ones at your fingertips even when you aren’t around.</p>
+          <p style="color: #474343;">Wellwishers was established by owners Moira Furtado & Simarjeet Sharma in April 2018. It looks to address and solve a problem faced by numerous immigrants throughout the developed world. Migrants regularly send money back to their homeland to help cover health and medical costs for their parents, partners, children, etc. It is then the responsibility of the recipient to schedule, attend, and interpret test results from these medical appointments. This often leads many immigrants to question whether their loved ones are receiving adequate care in their absence. Viewed as their cultural responsibility to look after their relatives, immigrants will hopeful embrace Wellwishers as an opportunity to fulfil this duty from afar.</p>
         </div>
         <section class="advantages__inner col-md-4">
-          <i class="fa fa-briefcase color_second"></i>
-          <h2 class="ui-title-inner">How we work</h2>
+          <i class="icon flaticon-medical51 color_second"></i>
+          <h2 class="ui-title-inner">Value Proposition</h2>
           <i class="decor-brand"></i>
-          <p class="ui-text text-center">A family member (subscriber) can purchase a health care solution via monthly subscription.Next, nominate your loved one (Patient).Wellwishers will schedule an in-home pathology collection for testing. </p>
+          <p class="ui-text text-center">Wellwishers is a provider of preventative health and wellness solutions including pathology testing, care and health education, health insurance, and medical referral networks. </p>
           <a class="btn btn_small" href="javascript:void(0);">LEARN MORE</a>
         </section>
         <section class="advantages__inner col-md-4">
-          <i class="fa fa-dot-circle-o color_second"></i>
+          <i class="icon flaticon-medical109 color_second"></i>
           <h2 class="ui-title-inner">Mission</h2>
           <i class="decor-brand"></i>
-          <p class="ui-text text-center">To provide affordable and convenient preventative medical testing, care, education, scheduling, and referrals to the subcontinent.To help in making your loved ones feel important and ease their work during old age. </p>
+          <p class="ui-text text-center">Wellwisher's mission is to provide affordable and convenient preventative medical testing, care, education, scheduling, and referrals to the subcontinent.</p>
           <a class="btn btn_small" href="javascript:void(0);">LEARN MORE</a>
         </section>
         <section class="advantages__inner col-md-4">
-          <i class="fa fa-podcast color_second"></i>
+          <i class="icon flaticon-healthcare6 color_second"></i>
           <h2 class="ui-title-inner">Vision</h2>
           <i class="decor-brand"></i>
-          <p class="ui-text text-center" style="color: #706f6e;">Is to provide care, attention and, peace of mind to your loved ones while you’re away. Increase health, wellbeing and standards of living through investment in education and technology, people and practices.</p>
+          <p class="ui-text text-center" style="color: #706f6e;">Wellwishers’ vision is to provide peace of mind to loved ones, increasing health and wellbeing standards through investment in education, technology, people, and practices.</p>
           <a class="btn btn_small" href="javascript:void(0);">LEARN MORE</a>
         </section>
       </div><!-- end row -->
@@ -523,7 +437,7 @@
         <div class="col-xs-12">
           <h1 class="ui-title-block" style="text-align: center"><span class="font-weight-norm color_primary"> WELL WISHER </span>Healthcare <strong class="font-weight_600">Packages </strong></h1>
           <div class="ui-subtitle-block">Our medical specialists care about you & your family’s health</div>
-          <p style="color:#474343;   text-align: center; padding: 10px;">Wellwishers offers three distinctive preventative healthcare packages ranging from $49 per month to $99 per month. To keep options simple, each subscription contains a standard pathology test comprised of Lipid, Thyroid, Liver, Kidney, and Blood Sugar tests. Care and education requirements, including home visit frequency are tailored around the patient’s requirements and test results. Higher priced subscriptions also contain either Basic or Comprehensive health insurance.</p>
+          <p>Wellwishers offers three distinctive preventative healthcare packages ranging from $49 per month to $99 per month. To keep options simple, each subscription contains a standard pathology test comprised of Lipid, Thyroid, Liver, Kidney, and Blood Sugar tests. Care and education requirements, including home visit frequency are tailored around the patient’s requirements and test results. Higher priced subscriptions also contain either Basic or Comprehensive health insurance.</p>
         </div>
 					<div class="col-xs-12 col-sm-8 col-md-4">
 							<ul class="pricing p-green" style="color:#323232">
@@ -788,62 +702,7 @@
   </div><!-- end banner -->
 
 
-  <footer class="footer">
-    <div class="footer__inner">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-sm-4">
-            <section class="footer__section">
-              <h2 class="footer__title">About WellWishers</h2>
-              <i class="decor-brand decor-brand_footer"></i>
-              <p>WellWishers's daily consumer health news is utilized and displayed on the Member Portals of many managed care organizations’ Web sites to help educate and create more engagement on a regular basis with members.</p>
-              
-            </section>
-            
-          </div>
-
-          <section class="footer__section col-sm-4">
-            <h2 class="footer__title">Conatct Details</h2>
-            <i class="decor-brand decor-brand_footer"></i>
-            <section class="tweets">
-              <address class="footer__contacts"><i class="footer__icon icon-pointer color_primary"></i>Plot No. 38 St. 39 Gurugram, Haryana, India</address>
-              <p class="footer__contacts"><i class="footer__icon icon-call-in color_primary"></i>+9198 7654 3210  / +522 234 56780</p>
-              <p class="footer__contacts"><i class="footer__icon icon-envelope-open color_primary"></i>info@wellwisher.com</p>
-            </section>
-            
-          </section>
-
-          <section class="footer__section col-sm-4">
-            <h2 class="footer__title">Contact Form</h2>
-            <i class="decor-brand decor-brand_footer"></i>
-            <form class="form" role="form">
-              <div class="form-group">
-                <input class="form-control" type="text" placeholder="Full Name">
-                <input class="form-control" type="email" placeholder="Email address">
-                <textarea class="form-control" rows="4" placeholder="Message"></textarea>
-                <input class="btn bg-color_primary pull-right" type="submit" value="SEND NOW">
-              </div>
-            </form>
-          </section>
-        </div><!-- end row -->
-      </div><!-- end container -->
-    </div><!-- end footer__inner -->
-
-
-
-    <div class="footer__bottom">
-      <span class="copyright">© Copyrights 2019 WellWishers </span>
-      <ul class="social-links">
-        <li><a target="_blank" href="https://www.facebook.com/"><i class="social_icons social_facebook_square"></i></a></li>
-        <li class=""><a target="_blank" href="https://twitter.com/"><i class="social_icons social_twitter_square"></i></a></li>
-        <li><a target="_blank" href="https://www.google.com/"><i class="social_icons social_googleplus_square"></i></a></li>
-        <li><a target="_blank" href="https://www.linkedin.com/"><i class="social_icons social_linkedin_square"></i></a></li>
-        <li><a target="_blank" href="https://www.youtube.com/"><i class="social_icons social_youtube_square"></i></a></li>
-        <li class="li-last"><a target="_blank" href="https://instagram.com/"><i class="social_icons social_instagram_square"></i></a></li>
-      </ul>
-    </div>
-  </footer>
+  <div><?php include("includes/footer.php"); ?></div>
 
 
 </div><!-- end layout-theme -->

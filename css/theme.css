@@ -78,6 +78,7 @@
 .logo {
 	display: inline-block;
 	vertical-align: top;
+	padding: 10px;
 }
 .header-inner {
 	margin-top: 0px;
@@ -87,15 +88,15 @@
 	text-align: right;
 }
 .header-label {
-	display: inline-block;
-	margin-left: 3px;
-	padding: 15px 23px;
-	font-size: 12px;
-	line-height: 14.4px;
-	color: #535353;
-	vertical-align: middle;
-	border: 1px solid #c7c5c5;
-    border-radius: 25px;
+    display: inline-block;
+    margin-left: 3px;
+    padding: 10px 0px;
+    font-size: 12px;
+    line-height: 14.4px;
+    color: #535353;
+    vertical-align: middle;
+    border: 1px solid #846b6b;
+    border-radius: 22px;
     background: white;
     width: 100%;
     text-align: center;
@@ -971,7 +972,7 @@ a.footer__contacts:hover {
     padding: 14px 25px 11px;
     font: 600 13px 'Raleway', sans-serif;
     color: #000000;
-    border: 1px solid #000000;
+    border: 1px solid #dcdbdb;
     transition: all 0.3s
 }
 
@@ -1413,6 +1414,8 @@ html .scroll-top-view {
 .slider_team .slide_horiz {
 	margin-bottom: 50px;
 	border-bottom: none;
+	box-shadow: 5px 10px #e6e6e6;
+	border: 1px solid  #e6e6e6;
 }
 .slider_team .slide_horiz:hover {
 	background-color: #fff;
@@ -1880,4 +1883,18 @@ html .scroll-top-view {
 	    list-style: none;
     margin-left: 10px;
 }
+.advantages__inner:hover .fa {
+    color: #f26529;
+}
+.advantages__inner .fa{
+	font-size: 70px;
+	    display: block;
+    margin-bottom: 32px;
+    margin-top: 20PX;
+}
+.doc{
+	
+	margin-top: 10px;
+}
+
 
